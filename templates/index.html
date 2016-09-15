@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{#{PAGE.TITLE}#}</title>
+
+	<!--<link rel="stylesheet" media="all and (max-width: 1000px)" href="{#{DOMAIN}#}/statics/css/mobile.css">-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{#{DOMAIN}#}/js/mediaelement/mediaelementplayer.css" />
+	<link rel="stylesheet" media="all" href="{#{DOMAIN}#}/css/style.css">
+	<link rel="stylesheet" media="all and (min-width: 1000px)" href="{#{DOMAIN}#}/css/style_mid.css">
+	<link rel="stylesheet" media="all and (min-width: 1200px)" href="{#{DOMAIN}#}/css/style_high.css">
+	
+	<link rel="icon" href="{#{DOMAIN}#}/favicon.ico" type="image/x-icon" />
+	
+	<meta property="og:title" content="{#{PAGE.TITLE}#}">
+	<meta property="og:site_name" content="Taberna da Centopeia Perneta">
+	<meta property="og:description" content="{#{PAGE.DESC}#}">
+	<meta property="og:image" content="{#{DOMAIN}#}/img/capa.jpg">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-80811492-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<div id="fb-root"></div>
+	<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=584330128303320";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+
+	<div class="nano">
+		<div class="nano-content">
+				<div class="centralizer">
+					{#{MENU}#}
+					<div id="wrapper-content">
+						{#{CONTENT}#}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="loader">&nbsp;</div>
+
+	<script type="text/javascript" src="{#{DOMAIN}#}/js/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="{#{DOMAIN}#}/js/jquery.nanoscroller.min.js"></script>
+	<script type="text/javascript" src="{#{DOMAIN}#}/js/mediaelement/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="{#{DOMAIN}#}/js/index.js"></script>
+</body>
+</html>

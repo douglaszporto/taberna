@@ -1,0 +1,186 @@
+#logo{
+	width: 500px;
+	height: 500px;
+	margin: 100px auto;
+}
+
+#menuAnchor.fixed{
+	margin-bottom: 200px; /*height + margin-bottom*/
+}
+
+#side-menu{
+	display: block;
+}
+
+#side-menu .wrapper{
+	max-width: 1200px;
+	min-width: 1000px;
+	width: 95%;
+}
+
+#menu{
+	max-width: 1200px;
+	min-width: 1000px;
+	height: 100px;
+	margin: 0 auto 100px auto;
+}
+
+#menu ul{
+	left: 118px;
+	right: 118px;
+	height: 80px;
+}
+
+
+#menu ul li{
+	width: 22.5%;
+	font-size: 28px;
+	line-height: 80px;
+}
+
+#menu ul li.middle{
+	background-size: auto;
+}
+
+#menu ul li:first-child{
+	margin-left: 0;
+}
+#menu ul li:last-child{
+	margin-right: 0;
+}
+
+
+
+
+
+.post{
+	max-width: 1200px;
+	min-width: 1000px;
+	margin: 0 auto 200px auto;
+}
+
+.post .data{
+	margin: 0 135px;
+	position: relative;
+}
+
+
+.post .data .data-rolled{
+	height: 104px;
+	left: 23px;
+	right: 24px;
+	background: url('../img/post.png') repeat-x 0 0;
+}
+
+.post .data .data-rolled:before{
+	background: url('../img/post.png') no-repeat 0 0;
+	width: 23px;
+	left: -23px;
+	height: 66px;
+}
+
+.post .data .data-rolled:after{
+	background: url('../img/post.png') no-repeat 0 0;
+	width: 24px;
+	right: -24px;
+	height: 66px;
+}
+
+
+.post .data .data-top{
+	top: -66px;
+	background-position: 0 -106px;
+}
+
+.post .data .data-top:after {
+	background-position: -23px 0;
+}
+
+
+.post .data .data-content{
+	margin: 0 36px 0 34px;
+	padding: 50px 30px;
+}
+
+.post .data .data-bottom{
+	bottom: -45px;
+	background-position: 0 -67px;
+}
+
+.post .data .data-bottom:before{
+	background-position: -123px 0;
+	margin-top: 40px;
+}
+
+.post .data .data-bottom:after{
+	background-position: -100px 0;
+	margin-top: 40px;
+}
+
+
+h2{
+	font-size: 30px;
+}
+
+
+
+
+
+.data-content h1{
+	font-size: 30px;
+}
+
+.data-paragraph{
+	padding: 30px 0;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.podcast-date{
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+h2.podcast-title{
+	font-size: 28px;
+}
+
+.podcast-player-info{
+	font-size: 14px;
+}
+
+
+.podcast-description{
+	font-size: 14px;
+}
+
+
+
+
+.team-left{
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+	height: auto;
+}
+
+.team-right{
+	float: right;
+	width: 25%;
+	margin-left: 5%;
+	height: auto;
+}
+
+
+.team-right-text{
+	width: 70%;
+	float: right;
+}
+
+.team-left-text{
+	width: 70%;
+	float: left;
+}

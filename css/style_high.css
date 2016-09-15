@@ -1,0 +1,33 @@
+#side-menu .wrapper{
+	max-width: 1400px;
+	min-width: 1200px;
+	width: 95%;
+}
+
+#menu{
+	max-width: 1400px;
+	min-width: 1200px;
+}
+
+#menu ul li{
+	width: 15%;
+	font-size: 30px;
+}
+
+#menu ul li:first-child{
+	margin-left: 15%;
+}
+#menu ul li:last-child{
+	margin-right: 15%;
+}
+
+
+
+
+
+
+
+.post{
+	max-width: 1400px;
+	min-width: 1200px;
+}

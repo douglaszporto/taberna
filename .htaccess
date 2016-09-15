@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Tratamento de urls
+RewriteRule ^podcast(\/)?$ podcast.php [QSA,L,NC]
+RewriteRule ^podcast\/(.*?)?$ podcast.php?id=$1 [QSA,L,NC]
+RewriteRule ^equipe(\/)?$ team.php [QSA,L,NC]
+RewriteRule ^textos(\/)?$ text.php [QSA,L,NC]
+RewriteRule ^textos\/(.*?)?$ text.php?id=$1 [QSA,L,NC]
+RewriteRule ^feed(\/)?$ feed.php [QSA,L,NC]
+RewriteRule ^sitemap(.xml)?(\/)?$ sitemap.php [QSA,L,NC]
+
+RewriteRule ^contato(\/)?$ contact.php [QSA,L,NC]
+# RewriteRule ^textos\/(\d+)?$ texts.php?page=$1 [QSA,L,NC]
+
